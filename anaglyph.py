@@ -14,7 +14,6 @@ def anaglyph(left, right):
     left  = np.dot(left ,matleft)
     right = np.dot(right,matright)
     output = left + right
-    output = output.astype(int)
     return output
 
 def main():
