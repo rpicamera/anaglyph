@@ -11,11 +11,7 @@ matright= [[ 0.0, 0.0, 0.0],
            [ 0.0, 0.0, 1.0]]
 
 def anaglyph(left, right):
-    left  = np.dot(left ,matleft)
-    right = np.dot(right,matright)
-    output = left + right
-    output = output.astype(int)
-    return output
+    return np.dot(left ,matleft) + np.dot(right,matright)
 
 def getDualPiImages():
 # get image from master and slave pi
