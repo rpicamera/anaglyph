@@ -57,7 +57,7 @@ def getDualPiImages():
 
 def main():
 
-    leftimg,rightimg = getDualPiImages()
+    rightimg,leftimg = getDualPiImages()
 
     # create the anaglyph image
     output = anaglyph(leftimg,rightimg)
