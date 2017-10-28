@@ -2,9 +2,9 @@ from PIL import Image
 import numpy as np
 
 # set the matrix as Optimized Anaglyphs
-matleft = [[ 0.0, 0.7, 0.3],
-           [ 0.0, 0.0, 0.0],
-           [ 0.0, 0.0, 0.0]]
+matleft = [[ 0.0, 0.0, 0.0],
+           [ 0.7, 0.0, 0.0],
+           [ 0.3, 0.0, 0.0]]
 
 matright= [[ 0.0, 0.0, 0.0],
            [ 0.0, 1.0, 0.0],
